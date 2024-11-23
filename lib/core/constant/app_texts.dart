@@ -23,4 +23,9 @@ class AppTexts {
       lunch = 'عشاء & غداء',
       desserts = 'حلويات',
       search = 'البحث';
+
+  /// ================ filter restaurant =============
+  static const String favoriteScreenName = 'المفضلة',
+      restaurants = 'المطاعم',
+      meals = 'الوجبات';
 }

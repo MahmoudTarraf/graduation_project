@@ -14,6 +14,7 @@ class CustomGradientText extends StatelessWidget {
             .createShader(Rect.fromLTWH(0, 0, bounds.width, bounds.height));
       },
       child: Text(
+        textDirection: TextDirection.rtl,
         text,
         style: style ?? const TextStyle(color: AppColors.whiteColor),
       ),

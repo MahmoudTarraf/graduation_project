@@ -1,0 +1,26 @@
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=true
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+core.editor=code --wait
+core.autocrlf=true
+user.name=mahmoudtarraf
+user.email=mahmoudtarraf23@gmail.com
+add.sshcommand=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDCvJJtSlC9dF2EiL1ZhPK3scy4qLcHgtB2plkmLh+dc+WaEASAAotflnvnQQx8Dh57QFLe5rgeb1MWWGK+l4JuKiWEDlxzxES7+8pjn1jcXvI+KbgqLBEsZYhTM9w/fn0mc/NqRU8Y1zHABLaG2MOj2MvmuVOzE/L17smH1ZoA7NlzFvZfgaZYmQlIegBg0Y4t89f1KkFYB6qFs8WnmWE+MjJKfOel67A0U4RhBGC+1xwXbYQWk0k1VJXHlecKZBqaenCdzQIPB3+C95k+k0l5UWQOFxgJgyQb5XBgY7sS/psnHBLJvIqKw5dhjEDJrohcgBSICUJUTEvfsB8Wcu3WicTqhGXbDem28GQo+ps1qH3UmSOXnyB2YchYgmqAARlErKvDwsmhFOaTslsTRtfKH5nT3/ekOJtIc+OVG6Rx2GV1X9oIGbHOu9yMH6sxDH1vgGg1AjEGhN5Ofho8aFRfLo9Os6edrH6DMU1ylQdlA1HRfZ+oj7cjCSd7qPvZR/aXAWcorH0U685c4YmZkSEPgOD6OD2ukQ103n2O4tnrrZjCMAmj5Wk41T7m4xOnrJOTVmrfMZatZ5tT1ps6B/w6hOEXXYGX4UisiHPd6EMa70xI6DDJ5ObQVQgbSNYgykPxw+lENPASl8SVjAyXR+MGtF2PkiGmZnVsBtx+smUwYw== mahmoudtarraf23@example.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.ignorecase=true
+remote.origin.url=https://github.com/eliaszayoud-SE/graduation_project.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*

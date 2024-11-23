@@ -13,7 +13,8 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   final double? svgHeight;
   final double? svgWidth;
   final double height;
-
+  final TextDirection textDirection;
+  final PreferredSizeWidget? bottom;
   const CustomAppBar({
     Key? key,
     this.backIcon,
@@ -22,6 +23,8 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
     this.iconPath,
     this.svgHeight,
     this.svgWidth,
+    this.bottom,
+    this.textDirection = TextDirection.rtl,
     this.height = kToolbarHeight,
   }) : super(key: key);
 
@@ -36,12 +39,14 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
         color: AppColors.backgroundColor,
       ),
       title: Row(
+        textDirection: textDirection,
         children: [
           // Back Icon
           GestureDetector(
             onTap: () => Get.back(),
             child: backIcon ??
-                const Icon(
+                Icon(
+                  textDirection: textDirection,
                   Icons.arrow_back,
                   color: Colors.black,
                 ),
@@ -72,6 +77,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
             ),
         ],
       ),
+      bottom: bottom,
     );
   }
 

@@ -3,7 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:graduation_project/routes.dart';
 import 'package:graduation_project/theme/app_themes.dart';
-import 'package:graduation_project/view/filter_restaurant/screen/filter_restaurant.dart';
+import 'package:graduation_project/view/favorite/screen/favorite.dart';
 import 'bindings/initial_bindings.dart';
 
 import 'core/sevices/sevices.dart';
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
           locale: const Locale('ar'),
           initialBinding: InitialBindings(),
           debugShowCheckedModeBanner: false,
-          home: const FilterRestaurant(),
+          home: const Favorite(),
           theme: appTheme,
           getPages: routes,
         );
